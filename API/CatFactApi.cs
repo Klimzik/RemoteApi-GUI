@@ -21,7 +21,6 @@ namespace API
             string response = await _client.GetStringAsync(call);
             CatFact catFact = JsonSerializer.Deserialize<CatFact>(response);
 
-            // Dodaj fakt o kocie do bazy danych
             _context.CatFacts.Add(catFact);
             await _context.SaveChangesAsync();
             Console.WriteLine("Dodano nowy fakt o kocie do bazy danych.");

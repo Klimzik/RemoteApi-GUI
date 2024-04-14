@@ -124,7 +124,7 @@
             viewBox.FormattingEnabled = true;
             viewBox.Location = new Point(389, 47);
             viewBox.Name = "viewBox";
-            viewBox.Size = new Size(973, 264);
+            viewBox.Size = new Size(674, 264);
             viewBox.TabIndex = 12;
             // 
             // DeleteBtn
@@ -161,7 +161,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1374, 486);
+            ClientSize = new Size(1077, 486);
             Controls.Add(button1);
             Controls.Add(GetDataFromApiBtn);
             Controls.Add(DeleteBtn);
